@@ -20,7 +20,4 @@ services:
       MYSQL_ROOT_PASSWORD: 1234
       MYSQL_DATABASE: demo
     restart: always
-    healthcheck:
-      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
-      timeout: 10s
-      retries: 10
+   
