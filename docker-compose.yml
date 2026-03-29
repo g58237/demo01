@@ -2,7 +2,7 @@ services:
   demo:
     build: demo
     ports:
-      - "80:8080"
+      - "8080:8080"
     environment:
       DB_URL: jdbc:mysql://mydb:3306/demo
       DB_USER: root
